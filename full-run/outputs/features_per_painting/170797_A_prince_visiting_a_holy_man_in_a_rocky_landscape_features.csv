@@ -1,0 +1,2 @@
+painting_id,figure_id,centroid_x,centroid_y,mask_area,bbox_x1,bbox_y1,bbox_x2,bbox_y2,iso_nearest_centroid_norm,elev_bbox_top,sal_sum,sal_high_coverage_50
+170797_A_prince_visiting_a_holy_man_in_a_rocky_landscape,fig_001,961.6798712912805,1971.1745269697826,116853,792,1620,1137,2251,,0.5235294117647059,29515.017578125,0.1530641061846936

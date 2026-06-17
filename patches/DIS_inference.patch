@@ -1,0 +1,31 @@
+diff --git a/IS-Net/Inference.py b/IS-Net/Inference.py
+index 0b2907d..1ce93fa 100644
+--- a/IS-Net/Inference.py
++++ b/IS-Net/Inference.py
+@@ -5,6 +5,7 @@ from skimage import io
+ import time
+ from glob import glob
+ from tqdm import tqdm
++from pathlib import Path
+ 
+ import torch, gc
+ import torch.nn as nn
+@@ -17,9 +18,9 @@ from models import *
+ 
+ 
+ if __name__ == "__main__":
+-    dataset_path="../demo_datasets/your_dataset"  #Your dataset path
++    dataset_path= str(Path.home() / "thesis_models/pilot/images/clean")  #Your dataset path
+     model_path="../saved_models/IS-Net/isnet-general-use.pth"  # the model path
+-    result_path="../demo_datasets/your_dataset_result"  #The folder path that you want to save the results
++    result_path= str(Path.home() / "thesis_models/pilot/outputs/dis")  #The folder path that you want to save the results
+     input_size=[1024,1024]
+     net=ISNetDIS()
+ 
+@@ -50,4 +51,5 @@ if __name__ == "__main__":
+             mi = torch.min(result)
+             result = (result-mi)/(ma-mi)
+             im_name=im_path.split('/')[-1].split('.')[0]
+-            io.imsave(os.path.join(result_path,im_name+".png"),(result*255).permute(1,2,0).cpu().data.numpy().astype(np.uint8))
++            out = (result * 255).squeeze().cpu().data.numpy().astype(np.uint8)
++            io.imsave(os.path.join(result_path, im_name + ".png"), out)

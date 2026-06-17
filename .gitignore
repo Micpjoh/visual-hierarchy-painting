@@ -1,0 +1,37 @@
+# Model weights
+*.pt
+*.pth
+
+# Python cache
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Virtual environments
+envs/
+
+# Cloned repos (use patches/ instead)
+repos/
+
+# Raw images (copyright, too large)
+images/
+images_subset/
+artdl/
+
+# GPU stage outputs (reproducible from code)
+full-run/outputs/sam3/
+full-run/outputs/dis/
+full-run/outputs/yolov7/
+auto-run/outputs/sam3_masks/
+auto-run/outputs/dis_saliency/
+
+# Diagnostic overlays (reproducible)
+full-run/diagnostic/hit3_misses/*.png
+full-run/diagnostic/spot_checks/
+
+# Logs
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db

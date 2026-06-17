@@ -1,0 +1,3 @@
+painting_id,figure_id,centroid_x,centroid_y,mask_area,bbox_x1,bbox_y1,bbox_x2,bbox_y2,iso_nearest_centroid_norm,elev_bbox_top,sal_sum,sal_high_coverage_50
+136865_Portable_Triptych_Icon_Adoration_of_the_Miracle-Working_Icon_of_the_Vladimir_Mother_of_God,fig_001,1493.0475740222053,2052.230866818507,504477,1256,1214,1792,2724,0.30306870973100464,0.6078811369509044,481584.34375,0.9682720916909988
+136865_Portable_Triptych_Icon_Adoration_of_the_Miracle-Working_Icon_of_the_Vladimir_Mother_of_God,fig_002,1493.6448422491362,758.6898684249381,474102,1085,244,1891,1111,0.30306870973100464,0.9211886304909561,2547.21240234375,0.0

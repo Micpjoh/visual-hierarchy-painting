@@ -1,0 +1,4 @@
+painting_id,figure_id,centroid_x,centroid_y,mask_area,bbox_x1,bbox_y1,bbox_x2,bbox_y2,iso_nearest_centroid_norm,elev_bbox_top,sal_sum,sal_high_coverage_50
+134237_Virgin_and_Child_with_Saint_Jerome_and_Saint_Catherine_of_Alexandria,fig_001,363.0890296591142,2031.6250517715687,229373,245,1507,522,2664,0.13399744822828064,0.5567647058823529,228153.875,1.0
+134237_Virgin_and_Child_with_Saint_Jerome_and_Saint_Catherine_of_Alexandria,fig_002,818.0050605670771,2349.3640510870127,926576,322,1370,1510,3146,0.13399744822828064,0.5970588235294118,919790.375,1.0
+134237_Virgin_and_Child_with_Saint_Jerome_and_Saint_Catherine_of_Alexandria,fig_003,1448.0169866766867,2057.7911623184855,1232201,774,972,2027,3136,0.16764046699821003,0.7141176470588235,1111857.875,1.0

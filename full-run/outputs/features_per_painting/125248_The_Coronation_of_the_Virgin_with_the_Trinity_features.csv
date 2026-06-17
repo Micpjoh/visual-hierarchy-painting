@@ -1,0 +1,3 @@
+painting_id,figure_id,centroid_x,centroid_y,mask_area,bbox_x1,bbox_y1,bbox_x2,bbox_y2,iso_nearest_centroid_norm,elev_bbox_top,sal_sum,sal_high_coverage_50
+125248_The_Coronation_of_the_Virgin_with_the_Trinity,fig_001,413.47461474115033,1912.0775816781709,1092642,8,827,961,2869,0.3204329280339723,0.756764705882353,266705.6875,0.0935292621004867
+125248_The_Coronation_of_the_Virgin_with_the_Trinity,fig_002,1686.242821309454,1833.8326202405551,945646,1115,836,2067,2880,0.3204329280339723,0.7541176470588236,1110.40380859375,0.0

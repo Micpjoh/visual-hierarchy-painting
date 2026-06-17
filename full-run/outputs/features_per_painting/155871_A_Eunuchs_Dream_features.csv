@@ -1,0 +1,2 @@
+painting_id,figure_id,centroid_x,centroid_y,mask_area,bbox_x1,bbox_y1,bbox_x2,bbox_y2,iso_nearest_centroid_norm,elev_bbox_top,sal_sum,sal_high_coverage_50
+155871_A_Eunuchs_Dream,fig_001,2266.2915074609746,1470.413420047122,226646,1717,1043,2721,1738,,0.48797250859106533,224004.3125,1.0

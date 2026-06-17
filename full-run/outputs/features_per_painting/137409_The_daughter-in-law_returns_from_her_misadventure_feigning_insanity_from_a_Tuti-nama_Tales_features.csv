@@ -1,0 +1,3 @@
+painting_id,figure_id,centroid_x,centroid_y,mask_area,bbox_x1,bbox_y1,bbox_x2,bbox_y2,iso_nearest_centroid_norm,elev_bbox_top,sal_sum,sal_high_coverage_50
+137409_The_daughter-in-law_returns_from_her_misadventure_feigning_insanity_from_a_Tuti-nama_Tales,fig_001,755.0820817663472,2501.6376804561446,247290,434,2011,1175,2929,0.2683331113183282,0.4085294117647059,130054.5546875,0.494900723846496
+137409_The_daughter-in-law_returns_from_her_misadventure_feigning_insanity_from_a_Tuti-nama_Tales,fig_002,1847.7714099113077,2563.8221571924455,277138,1584,2048,2042,3063,0.2683331113183282,0.39764705882352946,75315.5703125,0.13658538345517396
